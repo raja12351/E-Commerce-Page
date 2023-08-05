@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Mada&family=Roboto&family=Rubik&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    margin-block: 2%;
+}
+.company-name{
+    color: #FF5151 !important;
+    font-size: 20px;
+    font-weight: 900 !important;
+    text-decoration: none;
+}
+.company-img{
+    margin-right: 10px;
+}
+.options>a{
+    text-decoration: none;
+    margin-inline: 2rem;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+}
+.rest{
+    color: #4F5665 !important;
+}
+.home{
+    color: #FF5151 !important;
+    font-family: Rubik;
+    font-size: 18px !important;
+    font-weight: 900 !important;
+}
+.icons>a{
+    margin-inline: 1rem;
+}
+.hero{
+    background: linear-gradient(90deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    margin-inline: 4.5rem;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-img>img{
+    margin-top: 2vh;
+    height: 48vh;
+}
+.fashion{
+    color: #000;
+    font-family: Aclonica;
+    font-size: 7rem;
+    font-weight: 400;
+}
+.texts{
+    margin-left: 20vh;
+}
+.slogan{
+    color: #000;
+    font-family: Mada;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.explore-btn{
+    background: linear-gradient(180deg, rgba(255, 81, 81, 0.50) 0%, #FF5E3A 100%);
+    border: none;
+    border-radius: 3px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 900;
+    height: 3rem;
+    width: 10rem;
+    box-shadow: 0px 2px 6px orangered;
+    transition: all 0.2s ease;
+}
+.explore-btn:hover{
+    transform: scale(1.05);
+}
+.collections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 2%;
+}
+.head{
+    color: #000;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+}
+.details{
+    color: #000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+.btn-details{
+    width: 130px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FFF;
+    font-weight: 600;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+    margin-inline: 10vh;
+    transition: all 0.2s ease;
+}
+.btn-details:hover{
+    background: linear-gradient(180deg, rgba(255, 81, 81, 0.50) 0%, #FF5E3A 100%);
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.05);
+}
